@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Restaurant Apps for Eats Explorer" />
+    <meta name="theme-color" content="#2c3e50" />
+    <link rel="apple-touch-icon" href="/icons/icon-144x144.png">
+    <link rel="manifest" href="./app.webmanifest" crossorigin="use-credentials">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <title>Eats Explorer</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header class="app-bar">
+      <div class="app-bar__brand">
+        <img src="./images/icons.png" alt="Eats Explorer Logo" width="50" height="50" />
+        <h1>Eats Explorer</h1>
+      </div>
+      <div class="app-bar__menu">
+        <button id="hamburgerButton" aria-label="Toggle navigation menu">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+      <nav id="navigationDrawer" class="app-bar__navigation">
+        <ul>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li><a href="https://www.linkedin.com/in/yogi-aprio-a27308278/" target="_blank" rel="noopener noreferrer">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hero-app></hero-app>
+
+    <main id="main-content"></main>
+
+    <footer-app></footer-app>
+  </body>
+</html>
